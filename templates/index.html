@@ -2,7 +2,7 @@
 
 {% block content %}
     <div class="nav">
-    <a href="#" class="learn">Learn More</a>
+    <a href="{{ url_for('about') }}" class="learn">Learn More</a>
     <a href="#" class="sign">Sign Up</a>
     </div>
     <div class="pic"><img src="{{ url_for('static', filename='img/python.png') }}"></div>

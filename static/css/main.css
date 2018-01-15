@@ -9,6 +9,11 @@ body{
     top:-60px;
     left:320px;
 }
+.pic2{
+    position:absolute;
+    top:20px;
+    left:380px;
+}
 
 .learn, .sign{
     color:black;

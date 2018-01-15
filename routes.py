@@ -9,6 +9,11 @@ def index():
     return render_template("index.html")
     #this returns the render_template function and loads index.html
 #routes the app
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
 #if __name__ is __main__ or if we are running the page as the main program, not a module or plugin, __name__ will be __main__ and then it will execute app.run which runs the app on a local server with debug being true, so it will show the errors it runs into
