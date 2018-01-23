@@ -2,8 +2,8 @@
 
 {% block content %}
     <div class="nav">
-    <a href="#" class="learn">Home</a>
-    <a href="#" class="sign">Sign Up</a>
+    <a href="{{ url_for('index') }}" class="learn">Home</a>
+    <a href="{{ url_for('signup') }}" class="sign">Sign Up</a>
     </div>
     <div class="pic2"><img src="{{ url_for('static', filename='img/flask.png') }}"></div>
 {% endblock %}
